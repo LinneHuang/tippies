@@ -45,12 +45,11 @@ class ViewController: UIViewController {
         
         let subtotal = bill + tip
         let total = subtotal / Double(split)
-        // ? Why split need to be added "Double"? It's integer, isn't it?
+        // ? Why split need to be added "Double"?
         
         tipLabel.text = String(format: "$ %.2f", tip)
         
         splitLabel.text = "\(split)"
-        // ? Why it cant just write "split"?
         
         totalLabel.text = String(format: "$ %.2f", total)
         
