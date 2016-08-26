@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var splitLabel: UILabel!
+    @IBOutlet weak var splitControl: UISegmentedControl!
     
     
     override func viewDidLoad() {
@@ -37,9 +39,19 @@ class ViewController: UIViewController {
         let tipPercentages = [0.1, 0.18, 0.2, 0.25]
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         
-        let total = bill + tip
+        let splitPeople = [1, 2, 3, 4, 5]
+        let split = splitPeople[splitControl.selectedSegmentIndex]
+        
+        
+        let subtotal = bill + tip
+        let total = subtotal / Double(split)
+        // ? Why split need to be added "Double"? It's integer, isn't it?
         
         tipLabel.text = String(format: "$ %.2f", tip)
+        
+        splitLabel.text = "\(split)"
+        // ? Why it cant just write "split"?
+        
         totalLabel.text = String(format: "$ %.2f", total)
         
     }
