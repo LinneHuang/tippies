@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
         // turn the divider off
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: .Default)
@@ -94,17 +94,21 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
         
     }
+    
+    
+
 }
 
-class NavigationController: UINavigationController, UIViewControllerTransitioningDelegate {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Status bar white font
-        self.navigationBar.barStyle = UIBarStyle.Black
-        self.navigationBar.tintColor = UIColor.whiteColor()
-    }
-}
+
+//class NavigationController: UINavigationController, UIViewControllerTransitioningDelegate {
+//    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        
+//        // Status bar white font
+//        self.navigationBar.barStyle = UIBarStyle.Black
+//        self.navigationBar.tintColor = UIColor.whiteColor()
+//    }
+//}
 
 

@@ -5,9 +5,9 @@
 Submitted by: **Linne S. Huang**
 
 Time spent: 
-**5** hours spent in total =
+**8** hours spent in total =
 **1.5** hours in the tutorial video + 
-3.5 hours in searching for 1) making split with two buttons, 2) Auto-layout, 3) Changing the navigation bar color and 4) making emojis visible while it's selected
+6.5 hours in searching for 1) making split with two buttons, 2) Auto-layout, 3) Changing the navigation bar color and 4) making emojis visible while it's selected
 
 ## User Stories
 
@@ -27,6 +27,15 @@ The following **additional** features are implemented:
 
   - You can split the bill
   - Using emojis as tip selectors
+  - Turned off the divider of the navigation bar
+  - Created a gradient background color
+  - Stayed single view application; it's more convenient. Users don't need to switch back and forth.
+
+ 
+
+  
+
+  
 
 ## Video Walkthrough 
 
@@ -40,14 +49,14 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-- Trying to change the navigation bar text color: 
+- Trying to change the navigation bar text color, yet still not sure if the code is correct.
 
   ```swift
 navigationController?.navigationBar.tintColor = UIColor.blueColor()
   ```
 
 
-- ​Trying to build the spliting function with two buttons like this:
+- ​Trying to build the spliting function with a pair of plus and minus button, like this:
 
   ```swift
     @IBAction func plusButton(sender: UIButton) {
@@ -62,6 +71,7 @@ navigationController?.navigationBar.tintColor = UIColor.blueColor()
         splitLabel.text = String(count)
         print("-")
   ```
+It works— yet it doesn't automatically update to the [total amount], unless you click twice anywhere on the screen; which is not a good user experience.
 
 
 
