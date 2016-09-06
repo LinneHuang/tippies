@@ -7,7 +7,17 @@ Submitted by: **Linne S. Huang**
 Time spent: 
 **8** hours spent in total =
 **1.5** hours in the tutorial video + 
-6.5 hours in searching for 1) making split with two buttons, 2) Auto-layout, 3) Changing the navigation bar color and 4) making emojis visible while it's selected
+6.5 hours in 
+
+1) making split with two buttons, 
+
+2) Auto-layout, 
+
+3) Changing the navigation bar color, 
+
+4) making emojis visible while it's selected and 
+
+5) feeling a bit of frustrated in Stackoverflow-ing 😵, and going to other website such as [100 Days of Swift](http://samvlu.com) for learning more about the basic of building iOS Application. It was fun. ☺️
 
 ## User Stories
 
