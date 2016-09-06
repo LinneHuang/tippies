@@ -1,13 +1,13 @@
-# Pre-work - **Tippie**
+# Pre-work - **Tippies**
 
-**Tippie** is a tip calculator application for iOS.
+**Tippies** is a tip calculator application for iOS.
 
 Submitted by: **Linne S. Huang**
 
 Time spent: 
 **8** hours spent in total =
 **1.5** hours in the tutorial video + 
-X hours in searching for OOO
+7 hours in searching for 1) making split with two buttons, 2) Auto-layout, 3) Changing the navigation bar color and 4) making emojis visible while it's selected
 
 ## User Stories
 
@@ -25,8 +25,8 @@ The following **additional** features are implemented:
 
 - [👌] List anything else that you can get done to improve the app functionality!
 
-  - improved 1:
-  - improved 2:
+  - You can split the bill
+  - Using emojis as tip selectors
 
 ## Video Walkthrough 
 
@@ -40,19 +40,29 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-- Why 
+- Trying to change the navigation bar text color: 
 
   ```swift
-      @IBAction func onTap(sender: AnyObject) {
-          view.endEditing(true)
-      }
+navigationController?.navigationBar.tintColor = UIColor.blueColor()
   ```
 
-  will show the keyboard??
 
-- ​
+- ​Trying to build the spliting function with two buttons like this:
 
-- Make background responsive to any size of device: I googled and checked stackoverflow, it seems "Auto-layout" is the solution. However, I still don't know how it works. :(
+  ```swift
+    @IBAction func plusButton(sender: UIButton) {
+        count += 1
+        splitLabel.text = String(count)
+        let split = Double(splitLabel.text!)
+        print(split)
+    }
+
+    @IBAction func minusButton(sender: UIButton) {
+        count -= 1
+        splitLabel.text = String(count)
+        print("-")
+  ```
+
 
 
 ## License
