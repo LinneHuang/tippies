@@ -11,11 +11,11 @@ Time spent:
 
 1) making split with two buttons, 
 
-2) Auto-layout, 
+2) understanding the Auto-layout, 
 
 3) Changing the navigation bar color, 
 
-4) making emojis visible while it's selected and 
+4) making emojis visible while they're in selected and 
 
 5) feeling a bit of frustrated in Stackoverflow-ing 😵, and going to other website such as [100 Days of Swift](http://samvlu.com) for learning more about the basic of building iOS Application. It was fun. ☺️
 
