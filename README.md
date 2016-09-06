@@ -5,9 +5,9 @@
 Submitted by: **Linne S. Huang**
 
 Time spent: 
-**8** hours spent in total =
+**5** hours spent in total =
 **1.5** hours in the tutorial video + 
-7 hours in searching for 1) making split with two buttons, 2) Auto-layout, 3) Changing the navigation bar color and 4) making emojis visible while it's selected
+3.5 hours in searching for 1) making split with two buttons, 2) Auto-layout, 3) Changing the navigation bar color and 4) making emojis visible while it's selected
 
 ## User Stories
 
